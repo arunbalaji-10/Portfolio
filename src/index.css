@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-apple-primary: #0071E3;
+  --color-apple-text: #1D1D1F;
+  --color-apple-secondary: #86868B;
+  --color-apple-border: #D2D2D7;
+  --color-apple-section: #F5F5F7;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; 
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+body {
+  @apply text-apple-text antialiased;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Slim Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #d2d2d7;
+  border-radius: 20px;
+}
