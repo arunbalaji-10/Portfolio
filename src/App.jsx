@@ -42,7 +42,7 @@ export default function App() {
 
   const projects = [
     { title: "Hire a Helper", desc: "On-demand helper hiring platform where users can post tasks and connect with helpers in real time", tech: ["React", "Node.js", "Express", "MongoDB"]},
-    { title: "Urban Waste Management", desc: "IoT-based system designed to improve waste collection efficiency through smart monitoring and optimized routing using real-time data from ultrasonic sensors.", tech: ["IoT", "Sensors", "Web Dashboard", "Node.js"] },
+    { title: "Smart DustBin", desc: "IoT-based system designed to improve waste collection efficiency through smart monitoring and optimized routing using real-time data from ultrasonic sensors.", tech: ["IoT", "Sensors", "Web Dashboard", "Node.js"] },
   ];
 
   const education = [
